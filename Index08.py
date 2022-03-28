@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if s.find("*") != -1:
+        return s.find("*")
+    else:
+        return False
+    
+    
         
